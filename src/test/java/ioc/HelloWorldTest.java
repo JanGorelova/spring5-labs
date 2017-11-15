@@ -13,7 +13,6 @@ import static org.hamcrest.core.Is.is;
 class HelloWorldTest {
     private static final String APPLICATION_CONTEXT_XML_FILE_NAME =
             "application-context.xml";
-
     private BeanFactory context =
             new ClassPathXmlApplicationContext(APPLICATION_CONTEXT_XML_FILE_NAME);
 
